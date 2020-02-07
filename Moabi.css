@@ -1,0 +1,603 @@
+#hero {
+  display: table;
+  width: 100%;
+  height: 100vh;
+  background: url(https://wallpaperaccess.com/full/349154.jpg) top center;
+  background-size: cover;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+#hero .hero-logo {
+  margin: 20px;
+}
+
+#hero .hero-logo img {
+  max-width: 100%;
+}
+
+#hero .hero-container {
+  background: rgba(0, 0, 0, 0.8);
+  display: table-cell;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#hero h1 {
+  margin: 30px 0 10px 0;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+#hero h2 {
+  color: #999;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  #hero h2 {
+    font-size: 24px;
+    line-height: 26px;
+    margin-bottom: 30px;
+  }
+  #hero h2 .rotating {
+    display: block;
+  }
+}
+
+#hero .rotating > .animated {
+  display: inline-block;
+}
+
+#hero .actions a {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+}
+
+#hero .btn-get-started {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+  color: #fff;
+}
+
+#hero .btn-get-started:hover {
+  background: none;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-education {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-education:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+#hero .btn-services {
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#hero .btn-services:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+
+
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+  background: #111;
+  padding: 20px 0;
+  height: 90px;
+}
+
+#header #logo {
+  float: left;
+}
+
+#header #logo h1 {
+  font-size: 36px;
+  margin: 0;
+  padding: 6px 0;
+  line-height: 1;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#header #logo h1 a, #header #logo h1 a:hover {
+  color: #fff;
+}
+
+#header #logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 50px;
+}
+
+@media (max-width: 768px) {
+  #header {
+    height: 80px;
+  }
+  #header #logo h1 {
+    font-size: 26px;
+  }
+  #header #logo img {
+    max-height: 40px;
+  }
+}
+
+.is-sticky #header {
+  background: rgba(0, 0, 0, 0.85);
+}
+.row {
+	margin-bottom:30px;
+}
+
+.icon-circled.icon-2x{
+	width: 48px !important;
+	height: 48px !important;
+	line-height: 48px !important;
+}
+
+i.icon-bgdark {
+	color: #f7f7f7;
+	background: #333;
+}
+i.icon-bgdark:hover {
+	color: #fff;
+}
+i.icon-bgdark.active:hover {
+	color: #f7f7f7;
+	background: #333;
+}
+
+i.icon-circled {
+	display: inline-block;
+	border-radius: 1000px !important;
+	-moz-border-radius: 1000px !important;
+	-webkit-border-radius: 1000px !important;
+	-o-border-radius: 1000px !important;
+	-ms-border-radius: 1000px !important;
+	text-align: center;
+	width: 24px !important;
+	height: 24px !important;
+	line-height: 24px !important;
+}
+
+.icon-circled.icon-2x{
+	width: 48px !important;
+	height: 48px !important;
+	line-height: 48px !important;
+}
+
+/* =========================================================
+06. Footer
+============================================================ */
+
+footer {
+	background: #2b2b2b;
+	text-align: center;
+	color: #ddd;
+	padding:50px 0 50px;
+}
+
+footer a {
+    color: #ddd;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+footer ul.social-networks {
+	list-style:none;
+}
+
+footer ul.social-networks li {
+	display:inline;
+}
+
+footer ul.social-networks li i {
+	display:inline-block;
+}
+
+footer ul.social-networks li a {
+	color: #5e5e5e;
+	margin: 0 5px;
+}
+
+footer ul.social-networks li a:hover {
+	text-decoration:none;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+
+footer ul.social-networks li i.icon-bgdark {
+	background: none;
+	color: #656565;
+}
+footer ul.social-networks li a i.icon-facebook {
+	background-image: url("facebook.png");
+	color: #fff;
+}
+footer ul.social-networks li a i.icon-twitter {
+	background-image: url("twitter.png");
+	color: #fff;
+}
+
+footer ul.social-networks li a i.icon-instagram {
+	background-image: url("instagram.png");
+	color: #fff;
+}
+
+footer ul.social-networks li a i.icon-facebook:hover {
+	background: #ba7b3d;
+	color: #fff;
+}
+
+footer ul.social-networks li a i.icon-twitter:hover {
+	background: #5ad2eb;
+	color: #fff;
+}
+footer ul.social-networks li a i.icon-instagram:hover {
+	background: #f57b71;
+	color: #fff;
+}
+footer ul.social-networks li a i.icon-pinterest:hover {
+	background: #d84848;
+	color: #fff;
+}
+
+.copyrights {
+    border-top: 1px dashed rgba(255, 255, 255, 0.1);
+    background-color: #1f1f1f;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 60px;
+    overflow: hidden;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    float: none;
+}
+
+.footer-distributed .footer-links {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+
+.footer-distributed .footer-company-name {
+    font-weight: 300;
+    margin: 0 10px;
+    color: #666;
+    padding: 0;
+	text-align: center;
+}
+
+.footer-distributed .footer-company-name a{
+    color: #ffffff;
+
+}
+
+.footer-distributed .footer-company-name a:hover{
+	color: black;
+}
+
+
+
+
+/* Footer right */
+
+.footer-distributed .footer-right {
+    float: none;
+}
+
+.footer-distributed .widget-title p {
+    padding-top: 40px;
+}
+
+/* The search form */
+
+.footer-distributed form {
+    position: relative;
+}
+
+.footer-distributed form input {
+    display: block;
+    border-radius: 3px;
+    box-sizing: border-box;
+    background-color: #181818;
+    border: none;
+    font: inherit;
+    font-size: 15px;
+    font-weight: normal;
+    color: #999;
+    width: 100%;
+    padding: 18px 50px 18px 18px;
+}
+
+.footer-distributed form input:focus {
+    outline: none;
+}
+
+
+/* Changing the placeholder color */
+
+.footer-distributed form input::-webkit-input-placeholder {
+    color: #999;
+}
+
+.footer-distributed form input::-moz-placeholder {
+    opacity: 1;
+    color: #999;
+}
+
+.footer-distributed form input:-ms-input-placeholder {
+    color: #999;
+}
+
+
+/* The magnify glass icon */
+
+.footer-distributed form i {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    color: #999;
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+  h2 {
+    color: black;
+    margin-left: 20px;
+  }
+
+  p {
+    color: black;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
+  }
+ /* Subscribe Section
+--------------------------------*/
+#subscribe {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(mortal-kombat-3.jpg) fixed center center;
+  background-size: cover;
+  padding: 10px 0;
+  
+}
+
+#subscribe .subscribe-title {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+#subscribe .subscribe-text {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#subscribe .subscribe-btn-container {
+  text-align: center;
+  padding-top: 20px;
+}
+
+#subscribe .subscribe-btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#subscribe .subscribe-btn:hover {
+  background: #03C4EB;
+  border: 2px solid #03C4EB;
+}
+
+  .nav-menu, .nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .nav-menu ul {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .nav-menu li {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .nav-menu > li {
+    float: left;
+  }
+  
+  .nav-menu li:hover > ul,
+  .nav-menu li.sfHover > ul {
+    display: block;
+  }
+  
+  .nav-menu ul ul {
+    top: 0;
+    left: 100%;
+  }
+  
+  .nav-menu ul li {
+    min-width: 180px;
+  }
+  
+  /* Nav Meu Container */
+  #nav-menu-container {
+    float: right;
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 768px) {
+    #nav-menu-container {
+      display: none;
+    }
+  }
+  
+  /* Nav Meu Styling */
+  .nav-menu a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    outline: none;
+  }
+  
+  .nav-menu a:hover, .nav-menu li:hover > a, .nav-menu .menu-active > a {
+    color: #03C4EB;
+  }
+  
+  .nav-menu ul {
+    margin: 4px 0 0 15px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.08);
+  }
+  
+  .nav-menu ul li {
+    background: #fff;
+    border-top: 1px solid #f4f4f4;
+  }
+  
+  .nav-menu ul li:first-child {
+    border-top: 0;
+  }
+  
+  .nav-menu ul li:hover {
+    background: #f6f6f6;
+  }
+  
+  .nav-menu ul li a {
+    color: #333;
+  }
+  
+  .nav-menu ul ul {
+    margin: 0;
+  }
+
+
+
+
+    .section-title {
+      font-size: 32px;
+      color: #111;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 700;
+    }
+    
+    .section-description {
+      text-align: center;
+      margin-bottom: 40px;
+      
+    }
+    
+    .section-title-divider {
+      width: 50px;
+      height: 3px;
+      background: #03C4EB;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+
+    .about-title{
+      font-size: 32px;
+      color: #111;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    .about-text{
+      text-align: center;
+      margin-bottom: 40px;
+      
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+    
+
+    /* Create two equal columns that sits next to each other */
+    .column {
+      flex: 50%;
+      padding: 10px;
+      height: 300px; /* Should be removed. Only for demonstration */
+    }
+
+    
