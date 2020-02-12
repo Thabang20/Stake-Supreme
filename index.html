@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="moabi.css">
 
     <title>Document</title>
-</head>
-<body>
-
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  </head>
+  <body>
 
     <!--==========================
     Hero Section
@@ -159,7 +159,7 @@
 <section id="contactme"></section>
 <div class="containers">
                   <h2 class="section-title">CONTACT US</h2>
-                    <form action="/action_page.php">
+                  <form action="?" method="POST">
                         <p style="text-align:center float: left; color: black;">
                         <label for="fname"><u>First Name</u></label><br>
                         <input type="text" id="flname" name="name" placeholder="Your full name.."><br>
@@ -172,7 +172,9 @@
             
                         <label for="subject"><u>Message</u></label><br>
                         <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
-                        
+
+                          <div class="g-recaptcha" data-sitekey="6LdxHdgUAAAAAB4x7cH-LK3FvAd-O9CqyenrCw_V"></div>
+                          <br/>
                       <input type="submit" value="Submit"><br>
                       </p>
                     </form>
