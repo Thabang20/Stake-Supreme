@@ -21,10 +21,10 @@
             <img class="" src="stake.png" alt="Stake">
           </div>
   
-          <h1>Welcome to Stake Supreme</h1>
-          <h2>Where Legends are born !!! </span></h2>
+          <h1>THABANG MOABI</h1>
+          <h2>SOFTWARE ENGINEER</h2>
           <div class="actions">
-            <a href="#about" class="btn-get-started">FINISH HIM</a>
+            <a href="#about" class="btn-get-started">PORTFOLIO</a>
           </div>
         </div>
       </div>
@@ -158,26 +158,29 @@
 <br><br><br><br> <br><br><br><br><br>
 <section id="contactme"></section>
 <div class="containers">
-                  <h2 class="section-title">CONTACT US</h2>
-                  <form action="?" method="POST">
-                        <p style="text-align:center float: left; color: black;">
-                        <label for="fname"><u>First Name</u></label><br>
-                        <input type="text" id="flname" name="name" placeholder="Your full name.."><br>
-                  
-                        <label for="num"><u>Contact Number</u></label><br>
-                        <input type="text" id="num" name="contactnumber" placeholder="Your contact number.."><br>
-                        
-                        <label for="email"><u>Email Address</u></label><br>
-                        <input type="text" id="email" name="emailaddress" placeholder="Your email address.."><br>
-            
-                        <label for="subject"><u>Message</u></label><br>
-                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
-
-                          <div class="g-recaptcha" data-sitekey="6LdxHdgUAAAAAB4x7cH-LK3FvAd-O9CqyenrCw_V"></div>
-                          <br/>
-                      <input type="submit" value="Submit"><br>
-                      </p>
-                    </form>
+                  <h2 class="section-title">CONTACT ME</h2>
+    <div class="alert">Your message has been sent</div>
+    <form id="contactForm">
+          <p>
+          <label>Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name.." required><br>
+        </p>
+          <p>
+          <label><u>Contact Number</label>
+          <input type="text" id="contactnumber" name="contactnumber" placeholder="Your contact number.." required><br>
+        </p>
+          <p>
+          <label>Email Address</label>
+          <input type="text" id="email" name="email" placeholder="Your email address.." required><br>
+        </p>
+          <p class="full">
+          <label>Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write something.." style="height:200px"></textarea><br>
+        </p>
+            <p class="full">
+        <button type="submit">Submit</button><br>
+        </p>
+      </form>
                 </div>
               </div>
 
@@ -210,8 +213,7 @@
 
 </section>
 
-</body>
-</html>
-    
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="contact.js"></script>
 </body>
 </html>
