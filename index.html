@@ -17,7 +17,7 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
-
+    <div class="content">
     <!--==========================
     Hero Section
     ============================-->
@@ -68,11 +68,10 @@
       </div>
       
 
-      <div class="row" style="display: flex">
-        <div class="column" style="background-color:white;">
+
+<div class="container">
           <img src="thabang.jpg" alt="" align="right" style="width:400px;height:400px;margin-left:15px; border-radius: 50%;">
-        </div>
-        <div class="column" style="background-color:white; float: left;">
+
           <h2 class="about-title">I AM THE FATHER OF SIMBA</h2>
           <p class="about-text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
@@ -84,7 +83,8 @@
           </p>
           <p class="about-text">
             Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt molli.
-          </p>
+          </p></div>
+
     </section>
     <br><br><br><br><br>
 
@@ -128,12 +128,11 @@
     <img src="Sql.jpg" alt="Sql" style="width:100%">
   </div>
 </div>
-<br><br><br><br><br>
+
 <section id="experience">
   <h3 class="section-title">Experience and Past Projects</h3>
   <div class="section-title-divider"></div>
-  <div class="row" style="content: ''; clear: both; display: table;">
-    <div class="column" style="float: left; width: 33.33%; padding: 5px;">
+  <div class="container">
       <p class="about-text">
         Here are some of the companies I've worked for: 
       </p>
@@ -143,11 +142,8 @@
       <p class="about-text">
         <img src="nuEra.png" alt="Sql" style="width:50%">
       </p>
-    </div>
-    <div class="column" style="float: left; width: 33.33%; padding: 5px;">
-      <img src="thabang1.jpg" alt="" align="center" style="width:400px;height:400px;margin-left:15px; border-radius: 50%;">
-    </div>
-    <div class="column" style="float: right; width: 33.33%; padding: 5px;">
+
+    
       <p class="about-text" style="font-size: 35px;">
        Here Are Some Of The Websites I Have Worked On:
       </p>
@@ -184,20 +180,19 @@
           <label>Message</label>
           <textarea id="message" name="message" rows="5" placeholder="Write something.." style="height:200px"></textarea><br>
         </p>
-        <form action="?" method="POST">
-          <div id="html_element"></div>
-          <br>
-          <input type="submit" value="Submit">
-        </form>
-        <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
-            async defer>
-        </script>
+<form action="?" method="POST">
+      <div id="html_element"></div>
+      <br>
+    </form>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
             <p class="full">
-        <button type="submit">Submit</button><br>
+        <button type="submit" style="background-color: #1f1f1f; color: white; padding: 12px 20px; border: none; font-family: Roboto-Light; cursor: pointer; border-radius: 4px;">Submit</button><br>
         </p>
       </form>
                 </div>
-              </div>
+
 
 	<footer>
 		<div class="container">
@@ -230,5 +225,6 @@
 
 <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
 <script src="contact.js"></script>
+</div>
 </body>
 </html>
